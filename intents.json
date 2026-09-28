@@ -1,0 +1,372 @@
+{
+  "intents": [
+    {
+      "id": 1,
+      "tags": "account_balance",
+      "questions": [
+        "How can I check my account balance?",
+        "What is my current account balance?",
+        "How much money do I have in my account?",
+        "Can I see my account balance?",
+        "Where can I check my balance?",
+        "I want to know my account balance",
+        "How do I find out how much money is in my account?",
+        "Can you tell me my balance?",
+        "Show me my current balance",
+        "Where can I see my available balance?"
+      ],
+      "response": "You can check your account balance through online banking, the CityBank mobile app, an ATM, or customer support."
+    },
+
+    {
+      "id": 2,
+      "tags": "open_account",
+      "questions": [
+        "How can I open a bank account?",
+        "I want to open an account",
+        "How do I create a bank account?",
+        "Can I open an account online?",
+        "What is the process for opening an account?",
+        "I want to become a CityBank customer",
+        "How do I register for a bank account?",
+        "Can I create a new account online?",
+        "What do I need to open an account?",
+        "How can I become a customer?"
+      ],
+      "response": "You can open a CityBank account online by completing the account opening form and submitting the required identity and address documents."
+    },
+
+    {
+      "id": 3,
+      "tags": "account_documents",
+      "questions": [
+        "What documents do I need to open an account?",
+        "Which documents are required for opening an account?",
+        "What paperwork do I need?",
+        "What documents are needed to create an account?",
+        "Which identity documents do I need?",
+        "What proof do I need to open an account?",
+        "What are the requirements for opening an account?",
+        "Do I need ID proof to open an account?",
+        "What documents should I submit?",
+        "What do I need to provide when opening an account?"
+      ],
+      "response": "You generally need a valid government-issued identity document, address proof, and a recent photograph."
+    },
+
+    {
+      "id": 4,
+      "tags": "lost_card",
+      "questions": [
+        "I lost my card",
+        "My debit card is missing",
+        "What should I do if I lose my card?",
+        "I can't find my debit card",
+        "I cannot find my card",
+        "My card has been lost",
+        "Someone stole my card",
+        "My card was stolen",
+        "I think I lost my bank card",
+        "How do I report a lost card?",
+        "How can I block my lost card?",
+        "My debit card disappeared",
+        "I don't know where my card is",
+        "What do I do if my card is stolen?",
+        "I need to freeze my card"
+      ],
+      "response": "Immediately block or freeze your card through online banking or the mobile app and contact CityBank customer support."
+    },
+
+    {
+      "id": 5,
+      "tags": "card_activation",
+      "questions": [
+        "How do I activate my card?",
+        "How can I activate my debit card?",
+        "I received my card, how do I activate it?",
+        "How do I start using my new card?",
+        "Can I activate my card online?",
+        "Where can I activate my card?",
+        "What is the process for card activation?",
+        "My new card needs activation",
+        "How do I activate a new debit card?",
+        "Can I activate my card through the app?"
+      ],
+      "response": "You can activate your card through the CityBank mobile app, online banking, an ATM, or the activation method provided with your card."
+    },
+
+    {
+      "id": 6,
+      "tags": "forgot_pin",
+      "questions": [
+        "I forgot my PIN",
+        "I don't remember my card PIN",
+        "What should I do if I forget my PIN?",
+        "How can I reset my PIN?",
+        "I can't remember my PIN",
+        "I lost my PIN",
+        "How do I get a new PIN?",
+        "Can I change my forgotten PIN?",
+        "My card PIN is not remembered",
+        "Where can I reset my PIN?"
+      ],
+      "response": "If you forget your PIN, use the available PIN-reset option in online banking or contact CityBank customer support."
+    },
+
+    {
+      "id": 7,
+      "tags": "change_pin",
+      "questions": [
+        "How can I change my PIN?",
+        "I want to change my card PIN",
+        "Where can I change my PIN?",
+        "Can I change my debit card PIN?",
+        "How do I set a new PIN?",
+        "I want a new card PIN",
+        "How can I update my PIN?",
+        "Can I change my PIN at an ATM?",
+        "What is the process for changing my PIN?",
+        "How do I replace my current PIN?"
+      ],
+      "response": "You can change your card PIN using a supported CityBank ATM or through available card-management options."
+    },
+
+    {
+      "id": 8,
+      "tags": "card_declined",
+      "questions": [
+        "Why was my card declined?",
+        "My card is not working",
+        "Why can't I use my card?",
+        "My debit card was declined",
+        "Why did my card payment fail?",
+        "My card isn't working at the store",
+        "Why is my card being rejected?",
+        "My card payment was declined",
+        "I can't make a payment with my card",
+        "Why won't my debit card work?",
+        "My card stopped working",
+        "What causes a card to be declined?"
+      ],
+      "response": "A card may be declined because of insufficient funds, security restrictions, incorrect card details, or other processing issues. Contact customer support if the problem continues."
+    },
+
+    {
+      "id": 9,
+      "tags": "money_transfer",
+      "questions": [
+        "How can I transfer money?",
+        "How do I send money to someone?",
+        "Can I transfer money online?",
+        "How do I make a bank transfer?",
+        "I want to send money to another account",
+        "How can I transfer funds?",
+        "How do I send money from my account?",
+        "Can I transfer money through the app?",
+        "What is the process for transferring money?",
+        "How can I make an online transfer?",
+        "I need to transfer money to another person"
+      ],
+      "response": "You can transfer money through CityBank online banking or the mobile application using the available transfer options."
+    },
+
+    {
+      "id": 10,
+      "tags": "transfer_failed",
+      "questions": [
+        "Why did my money transfer fail?",
+        "My transfer failed",
+        "Why can't I transfer money?",
+        "My bank transfer didn't work",
+        "Why was my transfer unsuccessful?",
+        "I couldn't send money",
+        "My money transfer is not working",
+        "Why did the transfer get rejected?",
+        "I tried to transfer money but it failed",
+        "What should I do if my transfer fails?"
+      ],
+      "response": "A transfer can fail because of incorrect recipient details, insufficient funds, technical issues, or security restrictions. Verify the details and try again."
+    },
+
+    {
+      "id": 11,
+      "tags": "pending_transaction",
+      "questions": [
+        "Why is my transaction pending?",
+        "My transaction is still pending",
+        "Why hasn't my payment gone through?",
+        "My payment says pending",
+        "What does pending transaction mean?",
+        "Why is my transaction taking so long?",
+        "My payment hasn't been completed",
+        "How long will my pending transaction take?",
+        "Why hasn't my transaction been processed?",
+        "My transaction is stuck on pending"
+      ],
+      "response": "A transaction may remain pending while the payment is being processed or verified. If it remains pending for an extended period, contact customer support."
+    },
+
+    {
+      "id": 12,
+      "tags": "unknown_transaction",
+      "questions": [
+        "I don't recognize a transaction",
+        "There is a transaction I didn't make",
+        "Someone used my account",
+        "I see an unfamiliar transaction",
+        "I don't remember making this payment",
+        "There is a strange charge on my account",
+        "Why is there a transaction I don't recognize?",
+        "I think someone used my card",
+        "There is an unauthorized payment",
+        "I didn't make this transaction",
+        "I see a payment that isn't mine"
+      ],
+      "response": "Review the transaction details and contact CityBank immediately if you believe the transaction is unauthorized."
+    },
+
+    {
+      "id": 13,
+      "tags": "transaction_history",
+      "questions": [
+        "How can I check my transaction history?",
+        "Where can I see my transactions?",
+        "Can I view my past transactions?",
+        "How do I see my payment history?",
+        "I want to see my transaction history",
+        "Where can I find my account transactions?",
+        "Can I check previous payments?",
+        "How do I view my bank statement?",
+        "Show me my recent transactions",
+        "Where can I see my transaction records?"
+      ],
+      "response": "You can view your transaction history through online banking or the CityBank mobile application."
+    },
+
+    {
+      "id": 14,
+      "tags": "online_payment_failed",
+      "questions": [
+        "Why did my online payment fail?",
+        "My online payment isn't working",
+        "Why was my online payment declined?",
+        "I can't make an online payment",
+        "My internet payment failed",
+        "Why can't I pay online?",
+        "My online purchase was declined",
+        "Why did my online transaction fail?",
+        "I tried paying online but it didn't work",
+        "My card payment failed online"
+      ],
+      "response": "An online payment may fail because of insufficient funds, incorrect card information, security restrictions, or a temporary technical issue."
+    },
+
+    {
+      "id": 15,
+      "tags": "duplicate_payment",
+      "questions": [
+        "I was charged twice",
+        "Why was I charged twice for the same payment?",
+        "I see two charges for one purchase",
+        "I was billed twice",
+        "There are duplicate charges on my account",
+        "Why did the same payment appear twice?",
+        "I made one payment but got charged twice",
+        "How do I report a duplicate payment?",
+        "There are two identical transactions",
+        "I think I was charged twice"
+      ],
+      "response": "Check your transaction history to confirm the duplicate charge. If both charges are completed, contact customer support for assistance."
+    },
+
+    {
+      "id": 16,
+      "tags": "loan_application",
+      "questions": [
+        "How can I apply for a loan?",
+        "I want to apply for a loan",
+        "Can I get a loan from CityBank?",
+        "How do I request a loan?",
+        "What is the loan application process?",
+        "Where can I apply for a loan?",
+        "Can I apply for a loan online?",
+        "I need a bank loan",
+        "How do I get a loan?",
+        "What are the steps to apply for a loan?"
+      ],
+      "response": "You can apply for an eligible CityBank loan online or by contacting a CityBank branch or loan representative."
+    },
+
+    {
+      "id": 17,
+      "tags": "loan_status",
+      "questions": [
+        "How can I check my loan status?",
+        "What is the status of my loan?",
+        "Can I track my loan application?",
+        "Has my loan been approved?",
+        "How do I know if my loan is approved?",
+        "Where can I check my loan application?",
+        "I want to track my loan",
+        "Can I see my loan application status?",
+        "Is my loan application still processing?",
+        "How long will my loan application take?"
+      ],
+      "response": "You can check your loan application status through online banking or by contacting CityBank customer support."
+    },
+
+    {
+      "id": 18,
+      "tags": "security",
+      "questions": [
+        "How do I keep my account secure?",
+        "How can I protect my bank account?",
+        "What can I do to keep my account safe?",
+        "How do I improve my banking security?",
+        "How can I protect my online banking account?",
+        "What security measures should I use?",
+        "How do I prevent someone from accessing my account?",
+        "How can I make my account more secure?",
+        "What should I do to protect my banking information?",
+        "How can I stay safe while using online banking?"
+      ],
+      "response": "Use a strong password, enable multi-factor authentication, never share your OTP or password, and avoid logging into your account through suspicious links."
+    },
+
+    {
+      "id": 19,
+      "tags": "otp_security",
+      "questions": [
+        "Should I share my OTP?",
+        "Will CityBank ask for my OTP?",
+        "Can I give my OTP to customer support?",
+        "Someone asked me for my OTP",
+        "Is it safe to share my OTP?",
+        "Can I tell someone my verification code?",
+        "Should I give my OTP over the phone?",
+        "Someone is asking for my bank OTP",
+        "Can I share my OTP with anyone?",
+        "Is my OTP private?"
+      ],
+      "response": "Never share your OTP, password, PIN, or full card security details with anyone. If someone requests these details, contact the bank through an official channel."
+    },
+
+    {
+      "id": 20,
+      "tags": "customer_support",
+      "questions": [
+        "How can I contact customer support?",
+        "I need help from customer service",
+        "How do I contact the bank?",
+        "Where can I get customer support?",
+        "I want to speak to customer service",
+        "How can I reach CityBank?",
+        "What is the customer support process?",
+        "Where can I get help with my account?",
+        "I need assistance with my bank account",
+        "How do I contact a CityBank representative?"
+      ],
+      "response": "You can contact CityBank customer support through the official website, mobile application, or the customer-service number provided by the bank."
+    }
+  ]
+}
